@@ -26,10 +26,10 @@ spec:
       connectionConfig: 01ef0c9f-ed29-112e-b055-56402734aabb
       env:
       - from: ServiceURL
-        to: <YOUR_ENV_VARIABLE_NAME_HERE>
+        to: APPOINTMENT_SERVICE_URL
       - from: ConsumerKey
-        to: <YOUR_ENV_VARIABLE_NAME_HERE>
+        to: APPOINTMENT_CONSUMER_KEY
       - from: ConsumerSecret
-        to: <YOUR_ENV_VARIABLE_NAME_HERE>
+        to: APPOINTMENT_CONSUMER_SECRET
       - from: TokenURL
-        to: <YOUR_ENV_VARIABLE_NAME_HERE>
+        to: APPOINTMENT_TOKEN_URL
