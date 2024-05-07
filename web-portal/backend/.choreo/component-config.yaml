@@ -28,8 +28,8 @@ spec:
       - from: ServiceURL
         to: APPOINTMENT_SERVICE_URL
       - from: ConsumerKey
-        to: APPOINTMENT_CONSUMER_KEY
+        to: APPOINTMENTS_OAUTH_CLIENT_ID
       - from: ConsumerSecret
-        to: APPOINTMENT_CONSUMER_SECRET
+        to: APPOINTMENTS_OAUTH_CLIENT_SECRET
       - from: TokenURL
-        to: APPOINTMENT_TOKEN_URL
+        to: APPOINTMENTS_OAUTH_TOKEN_URL
